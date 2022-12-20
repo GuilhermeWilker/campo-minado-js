@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-h3 {
-  text-align: center;
+
+html,
+body {
+  background-color: #eef3c9;
 }
 
+header {
+  margin-bottom: 50px;
+}
+
+/* --------------------------------------------------- */
 #screen {
   display: flex;
   flex-direction: column;
@@ -22,11 +29,13 @@ h3 {
 }
 
 .grid {
+  font-size: 20px;
+
   height: 400px;
   width: 400px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #656d7a;
+  background-color: #c9d955;
 
   border: 3px solid rgb(95, 95, 95);
 }
@@ -40,7 +49,7 @@ h3 {
   width: 40px;
   border: 5px solid;
   /* border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db; */
-  border-color: #d9bba0 #a67c58 #8c593b #d9bba0;
+  border-color: #8ea637 #548c1c #3e5915 #8ea637;
   box-sizing: border-box;
 }
 
@@ -48,7 +57,7 @@ h3 {
   height: 40px;
   width: 40px;
   border: 5px solid;
-  border-color: #d9bba0 #a67c58 #8c593b #d9bba0;
+  border-color: #8ea637 #548c1c #3e5915 #8ea637;
   box-sizing: border-box;
 }
 
@@ -56,7 +65,7 @@ h3 {
   height: 40px;
   width: 40px;
   border: 2px solid;
-  background-color: #d9bba0;
+  background-color: #cfdd64;
   border-color: #8c593b;
   box-sizing: border-box;
 }

@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
         square.classList.add("checked");
         if (total == 1) square.classList.add("one");
         if (total == 2) square.classList.add("two");
-        if (total == 3) square.classList.add("trhee");
+        if (total == 3) square.classList.add("three");
         square.innerHTML = total;
         return;
       }

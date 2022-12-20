@@ -1,27 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap");
 
-html,
-body {
-  background-color: #eef3c9;
-}
-
-header {
-  margin-bottom: 50px;
-}
-
-/* --------------------------------------------------- */
+/* ----------------------SCREEN GERAL----------------------------- */
 #screen {
   display: flex;
-  flex-direction: column;
-
   justify-content: center;
-  align-items: center;
+
+  gap: 15vw;
 
   height: 90vh;
   width: 100%;
 
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
+}
+
+/* ----------------------HOW TO PLAY----------------------------- */
+.how-to {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+
+  margin-top: 10vh;
+  width: 600px;
+}
+
+.how-to h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+/* ----------------------BOARD GAME----------------------------- */
+.game {
+  margin-top: 10vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-bottom: 20px;
 }
 
 #result {
@@ -29,13 +47,13 @@ header {
 }
 
 .grid {
-  font-size: 20px;
+  font-size: 23px;
 
   height: 400px;
   width: 400px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #c9d955;
+  background-color: #13678a;
 
   border: 3px solid rgb(95, 95, 95);
 }
@@ -49,7 +67,7 @@ header {
   width: 40px;
   border: 5px solid;
   /* border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db; */
-  border-color: #8ea637 #548c1c #3e5915 #8ea637;
+  border-color: #8f8ebf #4f4d8c #474073 #8f8ebf;
   box-sizing: border-box;
 }
 
@@ -57,7 +75,7 @@ header {
   height: 40px;
   width: 40px;
   border: 5px solid;
-  border-color: #8ea637 #548c1c #3e5915 #8ea637;
+  border-color: #8f8ebf #4f4d8c #474073 #8f8ebf;
   box-sizing: border-box;
 }
 
@@ -65,19 +83,22 @@ header {
   height: 40px;
   width: 40px;
   border: 2px solid;
-  background-color: #cfdd64;
+  background-color: #d3d2f7;
   border-color: #8c593b;
   box-sizing: border-box;
 }
 
 .one {
   color: blue;
+  font-weight: bold;
 }
 
 .two {
   color: red;
+  font-weight: bold;
 }
 
 .three {
   color: green;
+  font-weight: bold;
 }

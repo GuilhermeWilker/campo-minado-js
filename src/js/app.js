@@ -116,6 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let total = square.getAttribute("data");
       if (total != 0) {
         square.classList.add("checked");
+
         if (total == 1) square.classList.add("one");
         if (total == 2) square.classList.add("two");
         if (total == 3) square.classList.add("three");
@@ -212,8 +213,8 @@ document.addEventListener("DOMContentLoaded", () => {
         matches++;
       }
       if (matches === bombAmount) {
-        result.innerHTML = "YOU WIN! 🏆";
-        console.log("YOU WIN!");
+        result.innerHTML = "VOCE GANHOU! 🏆";
+        console.log("VOCE GANHOU!");
         isGameOver = true;
       }
     }
